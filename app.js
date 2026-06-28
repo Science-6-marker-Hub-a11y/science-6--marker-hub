@@ -3633,3 +3633,5 @@ window.onload = function() {
   updateTopicDropdown();
   renderQuestions();
 };
+// Add this inside the function that opens your question modal
+umami.track('Open Question', { subject: currentSubject });
